@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Meu Quadro de Tarefa</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <h1>📝Meu Quadro de Tarefa</h1>
+            <div class="container-nova-tarefa">
+                <input type="text" id="campo-nova-tarefa" placeholder="Digite uma nova tarefa..."/>
+                <button id="btn-adicionar" onclick="adicionarTarefa()">Adicionar</button>
+            </div>
+            <p class="msg"></p>
+        </header>
+
+        <main class="quadro">
+            <section class="coluna coluna-afazer">
+                <h2>A fazer <span class="contador" id="contador-afazer">0</span></h2>
+                <div class="lista-tarefas" id="lista-afazer"></div>
+            </section>
+            
+            <section class="coluna coluna-fazendo">
+                <h2>Fazendo <span class="contador" id="contador-fazendo">0</span></h2>
+                <div class="lista-tarefas" id="lista-fazendo"></div>
+            </section>
+            
+            <section class="coluna coluna-feito">
+                <h2>Feito <span class="contador" id="contador-feito">0</span></h2>
+                <div class="lista-tarefas" id="lista-feito"></div>
+            </section>
+        </main>
+
+
+        <footer>
+            <p>&copy; Meu Quadro de Tarefa 2026 - Todos os direitos reservados. </p>
+        </footer>
+
+        <script src="./javaScrip/script.js"></script>
+    </body>
+</html>
