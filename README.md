@@ -23,4 +23,4 @@ Projeto final do curso de **Programação Web**
 
 ## Como acessar a página
 - [Página no Github](https://github.com/elasoares/MeuQuadroDeTarefa-T05065) 
-- [Acessar a página hospedada]()
+- [Acessar a página hospedada](https://elasoares.github.io/MeuQuadroDeTarefa-T05065/)
